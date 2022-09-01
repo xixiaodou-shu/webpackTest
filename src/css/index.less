@@ -1,0 +1,18 @@
+html,body,ul {
+    margin: 0;
+    padding: 0;
+    li {
+        line-height: 35px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+}
+// 引入太多小图片，网络会发起很多不必要的请求
+// 优化：把小图片转成base64格式
+#box {
+    width: 380px;
+    height: 114px;
+    background-color: pink;
+    background: url("../image/logo.png");
+}
