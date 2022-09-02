@@ -28,10 +28,20 @@ git reset  --hard 七位版本号 如 git reset  --hard b7c6000
 ### 删除
 git push origin --delete main 删除远程main分支命令
 git branch -d test 删除test本地分支
+
 ### 使用 切换分支的时候 git错误解决-Your local changes to the following files would be overwritten by checkout
 发起一个commit 存到提交历史
 git add.
 git commit -m "commit message"
+
+### 冲突   ! [rejected]     
+### error: failed to push some refs to 'https://github.com/xixiaodou-shu/webpackTest.git'
+### hint: Updates were rejected because the remote contains work that you do
+方法一
+git push origin master -f  强制push
+方法二 
+git pull origin 远程分支名 获得最新版本
+$ git push origin 远程分支名
 mmm
 ddd
 ddd
