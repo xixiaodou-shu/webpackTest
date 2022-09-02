@@ -38,4 +38,13 @@ mmm
 git add.
 git commit -m "commit message"
 mmm
+q
+w
 
+qe
+q
+r
+qt
+q
+t
+q
