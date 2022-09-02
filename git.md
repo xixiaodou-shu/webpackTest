@@ -42,23 +42,7 @@ git push origin master -f  强制push
 方法二 
 git pull origin 远程分支名 获得最新版本
 $ git push origin 远程分支名
-mmm
-<<<<<<< HEAD
-ddd
-ddd
-dddd
-ddd
-=======
 ### 使用 切换分支的时候 git错误解决-Your local changes to the following files would be overwritten by checkout
 发起一个commit 存到提交历史
 git add.
 git commit -m "commit message"
-mmm
-
-qe
-q
-r
-qt
-q
-t
-q
