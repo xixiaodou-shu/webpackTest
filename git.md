@@ -46,4 +46,9 @@ $ git push origin 远程分支名
 发起一个commit 存到提交历史
 git add.
 git commit -m "commit message"
-mmm
+
+### 如果希望保留生产服务器上所做的改动,仅仅并入新配置项, 处理方法如下:
+git stash 
+git pull 
+git stash pop
+后可以使用git diff -w +文件名 来确认代码自动合并的情况.
