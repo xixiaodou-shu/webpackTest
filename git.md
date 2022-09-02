@@ -33,3 +33,9 @@ git branch -d test 删除test本地分支
 git add.
 git commit -m "commit message"
 mmm
+### 使用 切换分支的时候 git错误解决-Your local changes to the following files would be overwritten by checkout
+发起一个commit 存到提交历史
+git add.
+git commit -m "commit message"
+mmm
+
