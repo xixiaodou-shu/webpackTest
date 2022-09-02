@@ -25,8 +25,11 @@ git log --pretty=oneline 格式化log形式，每条log只有一行，只包含 
 git log --oneline 格式化log形式，每条log只有一行，只包含 短hash值 和 提交的备注；
 git reset  --hard 七位版本号 如 git reset  --hard b7c6000
  
+### 删除
+git push origin --delete main 删除远程main分支命令
+git branch -d test 删除test本地分支
 ### 使用 切换分支的时候 git错误解决-Your local changes to the following files would be overwritten by checkout
 发起一个commit 存到提交历史
 git add.
 git commit -m "commit message"
-
+mmm
