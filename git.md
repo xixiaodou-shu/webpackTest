@@ -46,3 +46,5 @@ $ git push origin 远程分支名
 发起一个commit 存到提交历史
 git add.
 git commit -m "commit message"
+ggdd
+ddd
