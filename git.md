@@ -52,5 +52,3 @@ git stash
 git pull 
 git stash pop
 后可以使用git diff -w +文件名 来确认代码自动合并的情况.
-
-ccc
