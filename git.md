@@ -64,3 +64,9 @@ git blame git.md 每行的修改记录
 ### git fetch和git pull 都可以用来更新本地库，
 git fetch只是将本地所关联的远程库commit id更新至最新；
 git pull是将本地库更新到远程库的最新状态！
+### 删除分支
+'''
+git branch -D master //删除本地master分支
+git push origin :master //删除远程master分支
+'''
+
